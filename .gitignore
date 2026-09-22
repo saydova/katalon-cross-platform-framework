@@ -1,0 +1,23 @@
+# Gradle & Builds
+.gradle/
+build/
+
+# Katalon Compiled Binaries & Caches
+/bin/
+/.cache/
+/Libs/
+/.classpath
+/.project
+
+# IDE & Eclipse Metadata (mencegah bug workspace path bocor ke repo)
+/.settings/
+/.metadata/
+
+# Test Reports & Execution Logs
+/Reports/
+output/
+!output/.gitkeep
+
+# OS Temporary Files
+.DS_Store
+Thumbs.db
